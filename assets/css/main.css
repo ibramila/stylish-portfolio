@@ -327,6 +327,33 @@ header .header-links ul li {
     display: none;
   }
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  width: 100%;
+  gap: 40px;
+}
+footer .links2 {
+  display: flex;
+  gap: 20px;
+}
+footer .links2 i {
+  padding: 27px 29px;
+  color: white;
+  background-color: #1d809f;
+  border-radius: 50%;
+  border: none;
+  font-size: 32px;
+}
+footer span {
+  font-size: 14px;
+  color: #6c757d;
+  font-family: "Montserrat", sans-serif;
+}
+
 .btn {
   color: #fff;
   background-color: #1D809F;
