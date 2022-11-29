@@ -1,4 +1,5 @@
 main {
+
     #hero-section {
         background-image: url("	https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
         background-repeat: no-repeat;
@@ -117,7 +118,6 @@ main {
                     gap: 20px;
                     text-align: center;
 
-
                     i {
                         padding: 40px;
                         background-color: white;
@@ -167,6 +167,83 @@ main {
                 width: 563px;
                 font-size: 56px;
                 font-family: $header-font-family;
+            }
+        }
+    }
+
+    #part5 {
+        padding: 120px 0;
+        width: 100%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .text4 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #f9e89e;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+
+                p {
+                    font-size: 48px;
+                    text-transform: capitalize;
+                    color: black;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+            }
+
+            .card-wrappers {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .col-6 {
+                    position: relative;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+
+                    .text5 {
+                        position: absolute;
+                        top: 50%;
+                        left: 10%;
+                        width: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        span {
+                            font-size: 12.8px;
+                            font-weight: 700;
+                            line-height: 1.2;
+                            font-family: $header-font-family;
+                            color: white;
+                        }
+
+                        p {
+                            font-size: 19.2px;
+                            font-weight: 300;
+                            line-height: 1.6;
+                            font-family: $header-font-family;
+                            color: white;
+                        }
+                    }
+                }
             }
         }
     }
@@ -352,9 +429,32 @@ main {
         #part4 {
             .container h1 {
                 text-align: center;
-                width: 390px;
+                width: 317px;
                 font-size: 56px;
                 font-family: $header-font-family;
+            }
+        }
+
+        #part5 {
+            .container {
+                .text4 {
+                    padding: 0 20px;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .card-wrappers {
+
+                    gap: 10px;
+
+                    .col-6 {
+                        .text5 {
+                            width: 75%;
+                        }
+                    }
+                }
             }
         }
 
@@ -429,9 +529,12 @@ main {
             }
         }
 
-        .wrapper {
-            display: flex;
-            flex-wrap: wrap;
+        #part3 {
+            .wrapper {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
 
             .col-3 {
                 display: flex;
@@ -463,6 +566,37 @@ main {
                 }
             }
 
+        }
+
+        #part5 {
+            .container {
+                // padding: 0 10px;
+
+                .text4 {
+                    padding: 0 20px;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .card-wrappers {
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    gap: 10px;
+
+                    .col-md-12 {
+                        width: auto;
+                        padding: 0 10px;
+
+                        .text5 {
+                            width: 75%;
+                        }
+                    }
+                }
+            }
         }
     }
 }
