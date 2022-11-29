@@ -364,7 +364,7 @@ main #hero-section .container h3 {
 }
 main #part2 {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   padding: 120px 0;
   background-color: white;
 }
@@ -482,6 +482,46 @@ main #part4 .container h1 {
   font-size: 56px;
   font-family: "Montserrat", sans-serif;
 }
+main #part6 {
+  background-color: #1d809f;
+  width: 100%;
+  padding: 120px 0;
+  opacity: 0.9;
+}
+main #part6 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+main #part6 .container p {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #part6 .container div {
+  display: flex;
+  gap: 20px;
+}
+main #part6 .container div .btn:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+main #part6 .container div .btn:nth-child(2) {
+  background-color: black;
+  color: white;
+}
+main #map {
+  width: 100%;
+  height: 480px;
+}
+main #map iframe {
+  width: 100%;
+  height: 100%;
+}
 main #our-team {
   padding: 96px 0;
   background-color: #f8f9fa;
@@ -511,6 +551,9 @@ main #our-team .container .text-center span {
   font-weight: 400;
   color: #6c757d;
   font-style: italic;
+}
+main #our-team .container .text {
+  text-align: center;
 }
 main #our-team .container .row .col-4 .team-member {
   display: flex;
@@ -551,14 +594,12 @@ main #our-team .container .row .col-4 .team-member ul li {
 main #our-team .container .row .col-4 .team-member ul li i {
   color: white;
 }
-main #our-team .container .text {
-  text-align: center;
-}
 
 @media only screen and (max-width: 576px) {
   main #hero-section {
     min-height: 480px;
     height: 0;
+    margin-top: 68px;
   }
   main #hero-section .container {
     padding: 0 90px;
@@ -568,7 +609,7 @@ main #our-team .container .text {
     font-family: "Montserrat", sans-serif;
   }
   main #hero-section .container h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 48px;
   }
   main #part2 {
@@ -577,7 +618,7 @@ main #our-team .container .text {
   main #part2 .container {
     padding: 50px;
   }
-  main .wrapper {
+  main #part3 .wrapper {
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -587,6 +628,30 @@ main #our-team .container .text {
     width: 390px;
     font-size: 56px;
     font-family: "Montserrat", sans-serif;
+  }
+  main #part6 .container {
+    padding: 0 30px;
+    text-align: center;
+  }
+  main #part6 .container p {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+  }
+  main #part6 .container div {
+    gap: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  main #part6 .container div .btn:nth-child(1) {
+    background-color: white;
+    color: black;
+  }
+  main #part6 .container div .btn:nth-child(2) {
+    background-color: black;
+    color: white;
   }
 }
 @media only screen and (max-width: 992px) {
